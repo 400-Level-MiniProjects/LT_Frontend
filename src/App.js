@@ -1,23 +1,12 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+import Main from "./pages/main";
 
 function App() {
   return (
-    <div className="bg-red-500">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to <code>LT FRONTEND</code> make changes and save to reload.
-          Goodluck
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+    <div className=" h-96 bg-red-500">
+      {/* No routes should be put in this place abeg */}
+      <Main/>
     </div>
   );
 }
